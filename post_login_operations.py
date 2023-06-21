@@ -20,7 +20,7 @@ class PostLoginOperations:
         self.show_options()
 
     def show_options(self):
-        print('\n[1] Show Balance        [2] Change account details\n[3] Withdraw money      [4] Deposit money\n'
+        print('\n[1] Show balance        [2] Change account details\n[3] Withdraw money      [4] Deposit money\n'
               '[5] Get loan            [6] Pay loan')
         inp = input('Write your answer here: ')
         self.validate_input(inp)
